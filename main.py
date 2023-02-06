@@ -3,18 +3,6 @@ import re
 import requests
 import json
 
-"""
-Vous allez ici créer votre premier outil de reconnaissance passive, vous avez le choix de la langue, cependant votre programme devra reconnaître les informations saisies (FULL NAME, IP, @login).
-
-- Pour le cas du nom complet, il devra reconnaître l'entrée : Nom Prénom, puis chercher dans les annuaires le numéro de téléphone et l'adresse.
-
-- S'il s'agit de l'adresse ip, votre outil devrait afficher au moins la ville et le nom du fournisseur d'accès internet.
-
-- S'il s'agit d'un nom d'utilisateur, votre outil devra vérifier si ce nom d'utilisateur est utilisé dans au moins 5 réseaux sociaux connus.
-
-Le résultat doit être stocké dans un fichier result.txt (result2.txt si le fichier existe déjà).
-"""
-
 
 # ------ Search Functions ------
 
